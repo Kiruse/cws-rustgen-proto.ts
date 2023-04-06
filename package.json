@@ -1,0 +1,13 @@
+{
+  "name": "rustgen-proto",
+  "packageManager": "yarn@3.4.1",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "yarn build",
+    "postpack": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.2"
+  }
+}
